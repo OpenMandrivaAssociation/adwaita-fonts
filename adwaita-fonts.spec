@@ -31,10 +31,10 @@ customized to match Inter.
 %files
 %license LICENSE
 %doc README.md
-#dir %{_fontsdir}/Adwaita
-#{_fontsdir}/Adwaita/AdwaitaMono-Bold.ttf
-#{_fontsdir}/Adwaita/AdwaitaMono-BoldItalic.ttf
-#{_fontsdir}/Adwaita/AdwaitaMono-Italic.ttf
-#{_fontsdir}/Adwaita/AdwaitaMono-Regular.ttf
-#{_fontsdir}/Adwaita/AdwaitaSans-Italic.ttf
-#{_fontsdir}/Adwaita/AdwaitaSans-Regular.ttf
+%dir %{_datadir}/fonts/Adwaita
+%{_datadir}/fonts/Adwaita/AdwaitaMono-Bold.ttf
+%{_datadir}/fonts/Adwaita/AdwaitaMono-BoldItalic.ttf
+%{_datadir}/fonts/Adwaita/AdwaitaMono-Italic.ttf
+%{_datadir}/fonts/Adwaita/AdwaitaMono-Regular.ttf
+%{_datadir}/fonts/Adwaita/AdwaitaSans-Italic.ttf
+%{_datadir}/fonts/Adwaita/AdwaitaSans-Regular.ttf
