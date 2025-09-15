@@ -1,5 +1,5 @@
 Name:           adwaita-fonts
-Version:        48.2
+Version:        49.0
 Release:        1
 Summary:        Adwaita Fonts
 License:        GPL-3.0-or-later
